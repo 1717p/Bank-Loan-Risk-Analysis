@@ -2,6 +2,7 @@
 
 ## Project Overview
 
+
 This project analyses bank loan data using SQL to identify borrower risk patterns, loan portfolio exposure, and default trends. The goal is to simulate how financial institutions analyse loan datasets to support credit risk monitoring and data-driven lending decisions. 
 ---
 
