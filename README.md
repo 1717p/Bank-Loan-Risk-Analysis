@@ -1,26 +1,44 @@
-# Bank-Loan-Risk-Analysis
 
-## Project Overview
 
-This project analyses bank loan data using SQL to identify borrower risk patterns, loan portfolio exposure, and default trends. The goal is to simulate how financial institutions analyse loan datasets to support credit risk monitoring and data-driven lending decisions. 
+# Bank Loan Risk Analysis
+
+This project focuses on analyzing banking loan data using SQL to understand borrower risk, loan performance, and repayment behavior. The project is divided into multiple SQL scripts to simulate a structured workflow for database creation, data loading, optimization, and analysis.
 
 ---
 
-## Business Problem
+## Project Structure
 
-* Banks face significant financial losses due to loan defaults. Effective analysis of borrower behaviour and loan performance helps financial institutions:
+### 1. Schema Design
 
-* Identify high-risk customers
+Creates database tables for customers, loans, and repayments using relational database concepts and constraints.
 
-* Detect default patterns across loan segments
+### 2. Data Ingestion & Validation
 
-* Evaluate the impact of credit score and income
+Loads sample banking datasets into the database and performs validation checks to identify missing values, duplicate records, and data inconsistencies.
 
-* Monitor loan portfolio exposure
+### 3. Query Optimization
 
-* Support better lending and risk management decisions
+Applies indexing and query optimization techniques to improve performance for analytical queries on larger datasets.
 
-  ---
+### 4. Risk & Loan Analysis
+
+Performs SQL-based analysis to:
+
+* Calculate loan default rates
+* Identify high-risk borrowers
+* Analyze overdue payments
+* Measure portfolio exposure
+* Segment customers based on risk indicators
+
+---
+## Technologies Used
+
+* SQL
+* MySQL
+* Relational Database Concepts
+
+---
+
 
 ## Key Analysis Performed
 * Loan Portfolio Analysis
@@ -46,7 +64,6 @@ This project analyses bank loan data using SQL to identify borrower risk pattern
 
 * Monitoring overdue payments helps identify early warning signals for loan defaults.
 ---
-
 ## Business Impact
 
 This analysis demonstrates how SQL-based analytics can help banks:
